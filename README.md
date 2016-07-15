@@ -44,7 +44,7 @@ grib.load('./grib_files/example.grb', function(err, data){
 **or**
 
 ```javascript
-grib = require('gribjs');
+grib = require('grib');
 grib.load('./grib_files/example.grb', 'some_center.json', function(err, data){
     if(err) throw err;
 
@@ -58,7 +58,7 @@ grib.load('./grib_files/example.grb', 'some_center.json', function(err, data){
 ```
 **or**
 
-You can open the index.js, inside sample folder, to check how I wrote the code (line 29).
+You can open `./sample/index.js` file and check how I wrote the code (line 29).
 
 # Note
 I'm not sure if it is well explained, but there is a sample folder that I truly hope it helps you. ;)
