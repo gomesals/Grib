@@ -1,0 +1,1026 @@
+[
+    {
+        "abbr": "var0",
+        "def": false
+    },
+    {
+        "abbr": "PRES",
+        "def": "Pressure [hPa]"
+    },
+    {
+        "abbr": "psnm",
+        "def": "Pressure reduced to MSL [hPa]"
+    },
+    {
+        "abbr": "tsps",
+        "def": "Pressure tendency [Pa\/s]"
+    },
+    {
+        "abbr": "var4",
+        "def": false
+    },
+    {
+        "abbr": "var5",
+        "def": false
+    },
+    {
+        "abbr": "geop",
+        "def": "Geopotential [dam]"
+    },
+    {
+        "abbr": "zgeo",
+        "def": "Geopotential height [gpm]"
+    },
+    {
+        "abbr": "gzge",
+        "def": "Geometric height [m]"
+    },
+    {
+        "abbr": "var9",
+        "def": false
+    },
+    {
+        "abbr": "var10",
+        "def": false
+    },
+    {
+        "abbr": "temp",
+        "def": "ABSOLUTE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "vtmp",
+        "def": "VIRTUAL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "ptmp",
+        "def": "POTENTIAL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "psat",
+        "def": "PSEUDO-ADIABATIC POTENTIAL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "mxtp",
+        "def": "MAXIMUM TEMPERATURE [K]"
+    },
+    {
+        "abbr": "mntp",
+        "def": "MINIMUM TEMPERATURE [K]"
+    },
+    {
+        "abbr": "tpor",
+        "def": "DEW POINT TEMPERATURE [K]"
+    },
+    {
+        "abbr": "dptd",
+        "def": "DEW POINT DEPRESSION [K]"
+    },
+    {
+        "abbr": "lpsr",
+        "def": "LAPSE RATE [K\/m]"
+    },
+    {
+        "abbr": "var20",
+        "def": false
+    },
+    {
+        "abbr": "rds1",
+        "def": "RADAR SPECTRA(1) [non-dim]"
+    },
+    {
+        "abbr": "rds2",
+        "def": "RADAR SPECTRA(2) [non-dim]"
+    },
+    {
+        "abbr": "rds3",
+        "def": "RADAR SPECTRA(3) [non-dim]"
+    },
+    {
+        "abbr": "var24",
+        "def": false
+    },
+    {
+        "abbr": "tpan",
+        "def": "TEMPERATURE ANOMALY [K]"
+    },
+    {
+        "abbr": "psan",
+        "def": "PRESSURE ANOMALY [Pa hPa]"
+    },
+    {
+        "abbr": "zgan",
+        "def": "GEOPOT HEIGHT ANOMALY [m]"
+    },
+    {
+        "abbr": "wvs1",
+        "def": "WAVE SPECTRA(1) [non-dim]"
+    },
+    {
+        "abbr": "wvs2",
+        "def": "WAVE SPECTRA(2) [non-dim]"
+    },
+    {
+        "abbr": "wvs3",
+        "def": "WAVE SPECTRA(3) [non-dim]"
+    },
+    {
+        "abbr": "wind",
+        "def": "WIND DIRECTION  [deg]"
+    },
+    {
+        "abbr": "wins",
+        "def": "WIND SPEED [m\/s]"
+    },
+    {
+        "abbr": "uvel",
+        "def": "ZONAL WIND (U) [m\/s]"
+    },
+    {
+        "abbr": "vvel",
+        "def": "MERIDIONAL WIND (V) [m\/s]"
+    },
+    {
+        "abbr": "fcor",
+        "def": "STREAM FUNCTION [m2\/s]"
+    },
+    {
+        "abbr": "potv",
+        "def": "VELOCITY POTENTIAL [m2\/s]"
+    },
+    {
+        "abbr": "var37",
+        "def": false
+    },
+    {
+        "abbr": "sgvv",
+        "def": "SIGMA COORD VERT VEL [sec\/sec]"
+    },
+    {
+        "abbr": "omeg",
+        "def": "OMEGA [Pa\/s]"
+    },
+    {
+        "abbr": "omg2",
+        "def": "VERTICAL VELOCITY [m\/s]"
+    },
+    {
+        "abbr": "abvo",
+        "def": "ABSOLUTE VORTICITY [10**5\/sec]"
+    },
+    {
+        "abbr": "abdv",
+        "def": "ABSOLUTE DIVERGENCE [10**5\/sec]"
+    },
+    {
+        "abbr": "vort",
+        "def": "VORTICITY  [1\/s]"
+    },
+    {
+        "abbr": "divg",
+        "def": "DIVERGENCE [1\/s]"
+    },
+    {
+        "abbr": "vucs",
+        "def": "VERTICAL U-COMP SHEAR [1\/sec]"
+    },
+    {
+        "abbr": "vvcs",
+        "def": "VERT V-COMP SHEAR [1\/sec]"
+    },
+    {
+        "abbr": "dirc",
+        "def": "DIRECTION OF CURRENT [deg]"
+    },
+    {
+        "abbr": "spdc",
+        "def": "SPEED OF CURRENT [m\/s]"
+    },
+    {
+        "abbr": "ucpc",
+        "def": "U-COMPONENT OF CURRENT [m\/s]"
+    },
+    {
+        "abbr": "vcpc",
+        "def": "V-COMPONENT OF CURRENT [m\/s]"
+    },
+    {
+        "abbr": "umes",
+        "def": "SPECIFIC HUMIDITY [kg\/kg]"
+    },
+    {
+        "abbr": "umrl",
+        "def": "RELATIVE HUMIDITY [no Dim]"
+    },
+    {
+        "abbr": "hmxr",
+        "def": "HUMIDITY MIXING RATIO [kg\/kg]"
+    },
+    {
+        "abbr": "agpl",
+        "def": "INST. PRECIPITABLE WATER [Kg\/m2]"
+    },
+    {
+        "abbr": "vapp",
+        "def": "VAPOUR PRESSURE [Pa hpa]"
+    },
+    {
+        "abbr": "sadf",
+        "def": "SATURATION DEFICIT [Pa hPa]"
+    },
+    {
+        "abbr": "evap",
+        "def": "EVAPORATION [Kg\/m2\/day]"
+    },
+    {
+        "abbr": "var58",
+        "def": false
+    },
+    {
+        "abbr": "prcr",
+        "def": "PRECIPITATION RATE [kg\/m2\/day]"
+    },
+    {
+        "abbr": "thpb",
+        "def": "THUNDER PROBABILITY [%]"
+    },
+    {
+        "abbr": "prec",
+        "def": "TOTAL PRECIPITATION [Kg\/m2\/day]"
+    },
+    {
+        "abbr": "prge",
+        "def": "LARGE SCALE PRECIPITATION [Kg\/m2\/day]"
+    },
+    {
+        "abbr": "prcv",
+        "def": "CONVECTIVE PRECIPITATION [Kg\/m2\/day]"
+    },
+    {
+        "abbr": "neve",
+        "def": "SNOWFALL [Kg\/m2\/day]"
+    },
+    {
+        "abbr": "wenv",
+        "def": "WAT EQUIV ACC SNOW DEPTH [kg\/m2]"
+    },
+    {
+        "abbr": "nvde",
+        "def": "SNOW DEPTH [cm]"
+    },
+    {
+        "abbr": "mxld",
+        "def": "MIXED LAYER DEPTH [m cm]"
+    },
+    {
+        "abbr": "tthd",
+        "def": "TRANS THERMOCLINE DEPTH [m cm]"
+    },
+    {
+        "abbr": "mthd",
+        "def": "MAIN THERMOCLINE DEPTH [m cm]"
+    },
+    {
+        "abbr": "mtha",
+        "def": "MAIN THERMOCLINE ANOM [m cm]"
+    },
+    {
+        "abbr": "cbnv",
+        "def": "CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "cvnv",
+        "def": "CONVECTIVE CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "lwnv",
+        "def": "LOW CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "mdnv",
+        "def": "MEDIUM CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "hinv",
+        "def": "HIGH CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "wtnv",
+        "def": "CLOUD WATER [kg\/m2]"
+    },
+    {
+        "abbr": "bli",
+        "def": "BEST LIFTED INDEX (TO 500 HPA) [K]"
+    },
+    {
+        "abbr": "var78",
+        "def": false
+    },
+    {
+        "abbr": "var79",
+        "def": false
+    },
+    {
+        "abbr": "var80",
+        "def": false
+    },
+    {
+        "abbr": "lsmk",
+        "def": "LAND SEA MASK [0,1]"
+    },
+    {
+        "abbr": "dslm",
+        "def": "DEV SEA_LEV FROM MEAN [m]"
+    },
+    {
+        "abbr": "zorl",
+        "def": "ROUGHNESS LENGTH [m]"
+    },
+    {
+        "abbr": "albe",
+        "def": "ALBEDO [%]"
+    },
+    {
+        "abbr": "dstp",
+        "def": "DEEP SOIL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "soic",
+        "def": "SOIL MOISTURE CONTENT [Kg\/m2]"
+    },
+    {
+        "abbr": "vege",
+        "def": "VEGETATION [%]"
+    },
+    {
+        "abbr": "var88",
+        "def": false
+    },
+    {
+        "abbr": "dens",
+        "def": "DENSITY [kg\/m3]"
+    },
+    {
+        "abbr": "var90",
+        "def": false
+    },
+    {
+        "abbr": "icec",
+        "def": "ICE CONCENTRATION [fraction]"
+    },
+    {
+        "abbr": "icet",
+        "def": "ICE THICKNESS [m]"
+    },
+    {
+        "abbr": "iced",
+        "def": "DIRECTION OF ICE DRIFT [deg]"
+    },
+    {
+        "abbr": "ices",
+        "def": "SPEED OF ICE DRIFT [m\/s]"
+    },
+    {
+        "abbr": "iceu",
+        "def": "U-COMP OF ICE DRIFT [m\/s]"
+    },
+    {
+        "abbr": "icev",
+        "def": "V-COMP OF ICE DRIFT [m\/s]"
+    },
+    {
+        "abbr": "iceg",
+        "def": "ICE GROWTH [m]"
+    },
+    {
+        "abbr": "icdv",
+        "def": "ICE DIVERGENCE [sec\/sec]"
+    },
+    {
+        "abbr": "var99",
+        "def": false
+    },
+    {
+        "abbr": "shcw",
+        "def": "SIG HGT COM WAVE\/SWELL [m]"
+    },
+    {
+        "abbr": "wwdi",
+        "def": "DIRECTION OF WIND WAVE [deg]"
+    },
+    {
+        "abbr": "wwsh",
+        "def": "SIG HGHT OF WIND WAVES [m]"
+    },
+    {
+        "abbr": "wwmp",
+        "def": "MEAN PERIOD WIND WAVES [sec]"
+    },
+    {
+        "abbr": "swdi",
+        "def": "DIRECTION OF SWELL WAVE [deg]"
+    },
+    {
+        "abbr": "swsh",
+        "def": "SIG HEIGHT SWELL WAVES [m]"
+    },
+    {
+        "abbr": "swmp",
+        "def": "MEAN PERIOD SWELL WAVES [sec]"
+    },
+    {
+        "abbr": "prwd",
+        "def": "PRIMARY WAVE DIRECTION [deg]"
+    },
+    {
+        "abbr": "prmp",
+        "def": "PRIM WAVE MEAN PERIOD [s]"
+    },
+    {
+        "abbr": "swdi",
+        "def": "SECOND WAVE DIRECTION [deg]"
+    },
+    {
+        "abbr": "swmp",
+        "def": "SECOND WAVE MEAN PERIOD [s]"
+    },
+    {
+        "abbr": "ocas",
+        "def": "SHORT WAVE ABSORBED AT GROUND [W\/m2]"
+    },
+    {
+        "abbr": "slds",
+        "def": "NET LONG WAVE AT BOTTOM [W\/m2]"
+    },
+    {
+        "abbr": "nswr",
+        "def": "NET SHORT-WAV RAD(TOP) [W\/m2]"
+    },
+    {
+        "abbr": "role",
+        "def": "OUTGOING LONG WAVE AT TOP [W\/m2]"
+    },
+    {
+        "abbr": "lwrd",
+        "def": "LONG-WAV RAD [W\/m2]"
+    },
+    {
+        "abbr": "swea",
+        "def": "SHORT WAVE ABSORBED BY EARTH\/ATMOSPHERE  [W\/m2]"
+    },
+    {
+        "abbr": "glbr",
+        "def": "GLOBAL RADIATION [W\/m2 ]"
+    },
+    {
+        "abbr": "var118",
+        "def": false
+    },
+    {
+        "abbr": "var119",
+        "def": false
+    },
+    {
+        "abbr": "var120",
+        "def": false
+    },
+    {
+        "abbr": "clsf",
+        "def": "LATENT HEAT FLUX FROM SURFACE [W\/m2]"
+    },
+    {
+        "abbr": "cssf",
+        "def": "SENSIBLE HEAT FLUX FROM SURFACE [W\/m2]"
+    },
+    {
+        "abbr": "blds",
+        "def": "BOUND LAYER DISSIPATION [W\/m2]"
+    },
+    {
+        "abbr": "var124",
+        "def": false
+    },
+    {
+        "abbr": "var125",
+        "def": false
+    },
+    {
+        "abbr": "var126",
+        "def": false
+    },
+    {
+        "abbr": "imag",
+        "def": "IMAGE [image^data]"
+    },
+    {
+        "abbr": "tp2m",
+        "def": "2 METRE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "dp2m",
+        "def": "2 METRE DEWPOINT TEMPERATURE [K]"
+    },
+    {
+        "abbr": "u10m",
+        "def": "10 METRE U-WIND COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "v10m",
+        "def": "10 METRE V-WIND COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "topo",
+        "def": "TOPOGRAPHY [m]"
+    },
+    {
+        "abbr": "gsfp",
+        "def": "GEOMETRIC MEAN SURFACE PRESSURE [hPa]"
+    },
+    {
+        "abbr": "lnsp",
+        "def": "LN SURFACE PRESSURE [hPa]"
+    },
+    {
+        "abbr": "pslc",
+        "def": "SURFACE PRESSURE [hPa]"
+    },
+    {
+        "abbr": "pslm",
+        "def": "M S L PRESSURE (MESINGER METHOD) [hPa]"
+    },
+    {
+        "abbr": "mask",
+        "def": "MASK  [-\/+]"
+    },
+    {
+        "abbr": "mxwu",
+        "def": "MAXIMUM U-WIND [m\/s]"
+    },
+    {
+        "abbr": "mxwv",
+        "def": "MAXIMUM V-WIND [m\/s]"
+    },
+    {
+        "abbr": "cape",
+        "def": "CONVECTIVE AVAIL. POT.ENERGY [m2\/s2]"
+    },
+    {
+        "abbr": "cine",
+        "def": "CONVECTIVE INHIB. ENERGY [m2\/s2]"
+    },
+    {
+        "abbr": "lhcv",
+        "def": "CONVECTIVE LATENT HEATING [K\/s]"
+    },
+    {
+        "abbr": "mscv",
+        "def": "CONVECTIVE MOISTURE SOURCE [1\/s]"
+    },
+    {
+        "abbr": "scvm",
+        "def": "SHALLOW CONV. MOISTURE SOURCE [1\/s]"
+    },
+    {
+        "abbr": "scvh",
+        "def": "SHALLOW CONVECTIVE HEATING [K\/s]"
+    },
+    {
+        "abbr": "mxwp",
+        "def": "MAXIMUM WIND PRESS. LVL  [hPa]"
+    },
+    {
+        "abbr": "ustr",
+        "def": "STORM MOTION U-COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "vstr",
+        "def": "STORM MOTION V-COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "cbnt",
+        "def": "MEAN CLOUD COVER [0-1]"
+    },
+    {
+        "abbr": "pcbs",
+        "def": "PRESSURE AT CLOUD BASE [hPa]"
+    },
+    {
+        "abbr": "pctp",
+        "def": "PRESSURE AT CLOUD TOP [hPa]"
+    },
+    {
+        "abbr": "fzht",
+        "def": "FREEZING LEVEL HEIGHT [m]"
+    },
+    {
+        "abbr": "fzrh",
+        "def": "FREEZING LEVEL RELATIVE HUMIDITY [%]"
+    },
+    {
+        "abbr": "fdlt",
+        "def": "FLIGHT LEVELS TEMPERATURE [K]"
+    },
+    {
+        "abbr": "fdlu",
+        "def": "FLIGHT LEVELS U-WIND [m\/s]"
+    },
+    {
+        "abbr": "fdlv",
+        "def": "FLIGHT LEVELS V-WIND [m\/s]"
+    },
+    {
+        "abbr": "tppp",
+        "def": "TROPOPAUSE PRESSURE   [hPa]"
+    },
+    {
+        "abbr": "tppt",
+        "def": "TROPOPAUSE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "tppu",
+        "def": "TROPOPAUSE U-WIND COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "tppv",
+        "def": "TROPOPAUSE v-WIND COMPONENT [m\/s]"
+    },
+    {
+        "abbr": "var161",
+        "def": false
+    },
+    {
+        "abbr": "gvdu",
+        "def": "GRAVITY WAVE DRAG DU\/DT [m\/s2]"
+    },
+    {
+        "abbr": "gvdv",
+        "def": "GRAVITY WAVE DRAG DV\/DT [m\/s2]"
+    },
+    {
+        "abbr": "gvus",
+        "def": "GRAVITY WAVE DRAG SFC ZONAL STRESS  [Pa]"
+    },
+    {
+        "abbr": "gvvs",
+        "def": "GRAVITY WAVE DRAG SFC MERIDIONAL STRESS [Pa]"
+    },
+    {
+        "abbr": "var166",
+        "def": false
+    },
+    {
+        "abbr": "dvsh",
+        "def": "DIVERGENCE OF SPECIFIC HUMIDITY [1\/s]"
+    },
+    {
+        "abbr": "hmfc",
+        "def": "HORIZ. MOISTURE FLUX CONV.  [1\/s]"
+    },
+    {
+        "abbr": "vmfl",
+        "def": "VERT. INTEGRATED MOISTURE FLUX CONV. [kg\/(m2*s)]"
+    },
+    {
+        "abbr": "vadv",
+        "def": "VERTICAL MOISTURE ADVECTION  [kg\/(kg*s)]"
+    },
+    {
+        "abbr": "nhcm",
+        "def": "NEG. HUM. CORR. MOISTURE SOURCE [kg\/(kg*s)]"
+    },
+    {
+        "abbr": "lglh",
+        "def": "LARGE SCALE LATENT HEATING   [K\/s]"
+    },
+    {
+        "abbr": "lgms",
+        "def": "LARGE SCALE MOISTURE SOURCE  [1\/s]"
+    },
+    {
+        "abbr": "smav",
+        "def": "SOIL MOISTURE AVAILABILITY  [0-1]"
+    },
+    {
+        "abbr": "tgrz",
+        "def": "SOIL TEMPERATURE OF ROOT ZONE [K]"
+    },
+    {
+        "abbr": "bslh",
+        "def": "BARE SOIL LATENT HEAT [Ws\/m2]"
+    },
+    {
+        "abbr": "evpp",
+        "def": "POTENTIAL SFC EVAPORATION [m]"
+    },
+    {
+        "abbr": "rnof",
+        "def": "RUNOFF [kg\/m2\/s)]"
+    },
+    {
+        "abbr": "pitp",
+        "def": "INTERCEPTION LOSS [W\/m2]"
+    },
+    {
+        "abbr": "vpca",
+        "def": "VAPOR PRESSURE OF CANOPY AIR SPACE [mb]"
+    },
+    {
+        "abbr": "qsfc",
+        "def": "SURFACE SPEC HUMIDITY   [kg\/kg]"
+    },
+    {
+        "abbr": "ussl",
+        "def": "SOIL WETNESS OF SURFACE [0-1]"
+    },
+    {
+        "abbr": "uzrs",
+        "def": "SOIL WETNESS OF ROOT ZONE [0-1]"
+    },
+    {
+        "abbr": "uzds",
+        "def": "SOIL WETNESS OF DRAINAGE ZONE [0-1]"
+    },
+    {
+        "abbr": "amdl",
+        "def": "STORAGE ON CANOPY [m]"
+    },
+    {
+        "abbr": "amsl",
+        "def": "STORAGE ON GROUND [m]"
+    },
+    {
+        "abbr": "tsfc",
+        "def": "SURFACE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "tems",
+        "def": "SURFACE ABSOLUTE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "tcas",
+        "def": "TEMPERATURE OF CANOPY AIR SPACE [K]"
+    },
+    {
+        "abbr": "ctmp",
+        "def": "TEMPERATURE AT CANOPY [K]"
+    },
+    {
+        "abbr": "tgsc",
+        "def": "GROUND\/SURFACE COVER TEMPERATURE [K]"
+    },
+    {
+        "abbr": "uves",
+        "def": "SURFACE ZONAL WIND (U) [m\/s]"
+    },
+    {
+        "abbr": "usst",
+        "def": "SURFACE ZONAL WIND STRESS [Pa]"
+    },
+    {
+        "abbr": "vves",
+        "def": "SURFACE MERIDIONAL WIND (V) [m\/s]"
+    },
+    {
+        "abbr": "vsst",
+        "def": "SURFACE MERIDIONAL WIND STRESS [Pa]"
+    },
+    {
+        "abbr": "suvf",
+        "def": "SURFACE MOMENTUM FLUX [W\/m2]"
+    },
+    {
+        "abbr": "iswf",
+        "def": "INCIDENT SHORT WAVE FLUX [W\/m2]"
+    },
+    {
+        "abbr": "ghfl",
+        "def": "TIME AVE GROUND HT FLX [W\/m2]"
+    },
+    {
+        "abbr": "var199",
+        "def": false
+    },
+    {
+        "abbr": "lwbc",
+        "def": "NET LONG WAVE AT BOTTOM (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "lwtc",
+        "def": "OUTGOING LONG WAVE AT TOP (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "swec",
+        "def": "SHORT WV ABSRBD BY EARTH\/ATMOS (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "ocac",
+        "def": "SHORT WAVE ABSORBED AT GROUND (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "var204",
+        "def": false
+    },
+    {
+        "abbr": "lwrh",
+        "def": "LONG WAVE RADIATIVE HEATING [K\/s]"
+    },
+    {
+        "abbr": "swrh",
+        "def": "SHORT WAVE RADIATIVE HEATING [K\/s]"
+    },
+    {
+        "abbr": "olis",
+        "def": "DOWNWARD LONG WAVE AT BOTTOM [W\/m2]"
+    },
+    {
+        "abbr": "olic",
+        "def": "DOWNWARD LONG WAVE AT BOTTOM (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "ocis",
+        "def": "DOWNWARD SHORT WAVE AT GROUND [W\/m2]"
+    },
+    {
+        "abbr": "ocic",
+        "def": "DOWNWARD SHORT WAVE AT GROUND (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "oles",
+        "def": "UPWARD LONG WAVE AT BOTTOM [W\/m2]"
+    },
+    {
+        "abbr": "oces",
+        "def": "UPWARD SHORT WAVE AT GROUND [W\/m2]"
+    },
+    {
+        "abbr": "swgc",
+        "def": "UPWARD SHORT WAVE AT GROUND (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "roce",
+        "def": "UPWARD SHORT WAVE AT TOP [W\/m2]"
+    },
+    {
+        "abbr": "swtc",
+        "def": "UPWARD SHORT WAVE AT TOP (CLEAR) [W\/m2]"
+    },
+    {
+        "abbr": "var216",
+        "def": false
+    },
+    {
+        "abbr": "var217",
+        "def": false
+    },
+    {
+        "abbr": "hhdf",
+        "def": "HORIZONTAL HEATING DIFFUSION [K\/s]"
+    },
+    {
+        "abbr": "hmdf",
+        "def": "HORIZONTAL MOISTURE DIFFUSION [1\/s]"
+    },
+    {
+        "abbr": "hddf",
+        "def": "HORIZONTAL DIVERGENCE DIFFUSION [1\/s2]"
+    },
+    {
+        "abbr": "hvdf",
+        "def": "HORIZONTAL VORTICITY DIFFUSION [1\/s2]"
+    },
+    {
+        "abbr": "vdms",
+        "def": "VERTICAL DIFF. MOISTURE SOURCE [1\/s]"
+    },
+    {
+        "abbr": "vdfu",
+        "def": "VERTICAL DIFFUSION DU\/DT [m\/s2]"
+    },
+    {
+        "abbr": "vdfv",
+        "def": "VERTICAL DIFFUSION DV\/DT [m\/s2]"
+    },
+    {
+        "abbr": "vdfh",
+        "def": "VERTICAL DIFFUSION HEATING [K\/s]"
+    },
+    {
+        "abbr": "umrs",
+        "def": "SURFACE RELATIVE HUMIDITY [no Dim]"
+    },
+    {
+        "abbr": "vdcc",
+        "def": "VERTICAL DIST TOTAL CLOUD COVER [no Dim]"
+    },
+    {
+        "abbr": "var228",
+        "def": false
+    },
+    {
+        "abbr": "var229",
+        "def": false
+    },
+    {
+        "abbr": "usmt",
+        "def": "TIME MEAN SURFACE ZONAL WIND (U) [m\/s]"
+    },
+    {
+        "abbr": "vsmt",
+        "def": "TIME MEAN SURFACE MERIDIONAL WIND (V) [m\/s]"
+    },
+    {
+        "abbr": "tsmt",
+        "def": "TIME MEAN SURFACE ABSOLUTE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "rsmt",
+        "def": "TIME MEAN SURFACE RELATIVE HUMIDITY [no Dim]"
+    },
+    {
+        "abbr": "atmt",
+        "def": "TIME MEAN ABSOLUTE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "stmt",
+        "def": "TIME MEAN DEEP SOIL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "ommt",
+        "def": "TIME MEAN DERIVED OMEGA [Pa\/s]"
+    },
+    {
+        "abbr": "dvmt",
+        "def": "TIME MEAN DIVERGENCE [1\/s]"
+    },
+    {
+        "abbr": "zhmt",
+        "def": "TIME MEAN GEOPOTENTIAL HEIGHT [m]"
+    },
+    {
+        "abbr": "lnmt",
+        "def": "TIME MEAN LOG SURFACE PRESSURE [ln(cbar)]"
+    },
+    {
+        "abbr": "mkmt",
+        "def": "TIME MEAN MASK [-\/+]"
+    },
+    {
+        "abbr": "vvmt",
+        "def": "TIME MEAN MERIDIONAL WIND (V) [m\/s]"
+    },
+    {
+        "abbr": "omtm",
+        "def": "TIME MEAN OMEGA  [cbar\/s]"
+    },
+    {
+        "abbr": "ptmt",
+        "def": "TIME MEAN POTENTIAL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "pcmt",
+        "def": "TIME MEAN PRECIP. WATER  [kg\/m2]"
+    },
+    {
+        "abbr": "rhmt",
+        "def": "TIME MEAN RELATIVE HUMIDITY [%]"
+    },
+    {
+        "abbr": "mpmt",
+        "def": "TIME MEAN SEA LEVEL PRESSURE [hPa]"
+    },
+    {
+        "abbr": "simt",
+        "def": "TIME MEAN SIGMADOT [1\/s]"
+    },
+    {
+        "abbr": "uemt",
+        "def": "TIME MEAN SPECIFIC HUMIDITY [kg\/kg]"
+    },
+    {
+        "abbr": "fcmt",
+        "def": "TIME MEAN STREAM FUNCTION| m2\/s]"
+    },
+    {
+        "abbr": "psmt",
+        "def": "TIME MEAN SURFACE PRESSURE [hPa]"
+    },
+    {
+        "abbr": "tmmt",
+        "def": "TIME MEAN SURFACE TEMPERATURE [K]"
+    },
+    {
+        "abbr": "pvmt",
+        "def": "TIME MEAN VELOCITY POTENTIAL [m2\/s]"
+    },
+    {
+        "abbr": "tvmt",
+        "def": "TIME MEAN VIRTUAL TEMPERATURE [K]"
+    },
+    {
+        "abbr": "vtmt",
+        "def": "TIME MEAN VORTICITY [1\/s]"
+    },
+    {
+        "abbr": "uvmt",
+        "def": "TIME MEAN ZONAL WIND (U) [m\/s]"
+    }
+]

@@ -1,0 +1,54 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        title GRIB parser in Node.js
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        style.
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                text-align: center;
+                background-color: #009688;
+                color: #fff;
+                padding: 50px;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+            #or{
+                width:100%;
+                text-align:center;
+                border-bottom: 1px solid #BDBDBD;
+                line-height:0.1em;
+                margin:10px 0 20px;
+                color: #616161;
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            #or span {
+                background:#fff;
+                padding:0 10px;
+            }
+    body
+        h1 A GRIB (Gridded Binary) parser in JavaScript, using Node.js
+        .container
+            form.form-horizontal(action="upload" method="post", enctype="multipart/form-data")
+                div(class="panel panel-primary")
+                    .panel-heading
+                        h3.panel-title Send a file
+                    .panel-body
+                        input#grib_file(type="file", name="grib_file")
+                    .panel-footer
+                        button(type="submit", class="btn btn-default") Send
+            #or
+                span or
+            form.form-horizontal(action="check", method="get")
+                div(class="panel panel-info")
+                    .panel-heading
+                        h3.panel-title Check a file
+                    .panel-body
+                        input.form-control(type="text", name="grib_hash", placeholder="Hash Key")
+                    .panel-footer
+                        button(type="submit", class="btn btn-default") Check

@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        title GRIB parser in Node.js
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        style.
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                text-align: center;
+                background-color: #009688;
+                color: #fff;
+                padding: 50px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            h2{
+                padding: 20px;
+                text-align: center;
+                background-color: #80CBC4;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+    body
+        h1 A GRIB (Gridded Binary) parser in JavaScript, using Node.js
+        h2= action
+        .container
+            strong Hash Key
+            .well= hashKey
+            h4 Messages:
+            ul
+                -
+                each item in messages
+                    li= item
