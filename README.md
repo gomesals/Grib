@@ -12,7 +12,7 @@ The project is not yet complete, but I am still working on it.
 
 ## Installing
 
-This is a module, therefore all files except the sample folder, must be within the folder 'node_modules/gribjs'
+This is a module, therefore all files except the sample folder, must be within the folder `node_modules/grib`
 
 ## Usage
 
