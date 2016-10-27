@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
 	h2d: function(h) {
 		return parseInt(h, 16);

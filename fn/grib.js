@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
 	isValid: (c) => {
 		return(c === 'GRIB') ? true : false;
