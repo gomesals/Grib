@@ -69,6 +69,7 @@ module.exports = {
 			quantifier = '',
 			label = '',
 			currentData = '',
+			currentResult = '',
 			i = 0,
 			j = 0,
 			word = '',
@@ -80,6 +81,7 @@ module.exports = {
 		// http://cautionsingularityahead.blogspot.nl/2010/04/javascript-and-ieee754-redux.html
 
 		var fromIEEE754 = function(bytes, ebits, fbits) {
+			
 			// Bytes to bits
 			var bits = [];
 			for(var i = bytes.length; i; i -= 1) {
