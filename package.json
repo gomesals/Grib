@@ -1,31 +1,38 @@
 {
-	"name": "Grib",
-	"version": "1.0.0",
-	"dependencies": {
-		"express": "^4.13.4",
-		"jade": "^1.11.0",
-		"multer": "^1.1.0"
-	},
-	"description": "A GRIB (Gridded Binary) parser in JavaScript",
-	"main": "index.js",
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/silvalexandre/Grib/"
-	},
-	"keywords": ["grib", "javascript", "node.js", "parser"],
-	"author": "Alexandre Gomes de Lima Silva <contato@silvalexandre.com>",
-	"contributors": [{
-		"name": "Messias de Oliveira",
-		"email": "messias.ti@gmail.com"
-	}],
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/silvalexandre/Grib/issues"
-	},
-	"homepage": "https://github.com/silvalexandre/Grib#readme"
+  "name": "Grib",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "pug": "^2.0.0-beta10"
+  },
+  "description": "A GRIB (Gridded Binary) parser in JavaScript",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvalexandre/Grib/"
+  },
+  "keywords": [
+    "grib",
+    "javascript",
+    "node.js",
+    "parser"
+  ],
+  "author": "Alexandre Gomes de Lima Silva <contato@silvalexandre.com>",
+  "contributors": [
+    {
+      "name": "Messias de Oliveira",
+      "email": "messias.ti@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silvalexandre/Grib/issues"
+  },
+  "homepage": "https://github.com/silvalexandre/Grib#readme"
 }

@@ -4,12 +4,12 @@
 	const express = require('express');
 	const app = express();
 	const multer = require('multer');
-	const jade = require('jade');
+	const pug = require('pug');
 	const fs = require('fs');
 	const upload = multer({
 		dest: './grib_files/'
 	});
-	app.set('view engine', 'jade');
+	app.set('view engine', 'pug');
 	app.get('/', (req, res) => {
 		res.render(__dirname + '/pages/index');
 	});
