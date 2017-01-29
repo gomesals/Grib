@@ -5,7 +5,7 @@
 	const grib = module.exports = {};
 	const fs = require('fs');
 	const tools = require('./fn/tools');
-	const grib_tools = require('./fn/grib');
+	const gribTools = require('./fn/grib');
 	var contentCenter = null;
 	var center = null;
 	var fileSize = 0;
@@ -47,12 +47,12 @@
 	};
 
 	function readMessage(data) {
-		if (grib_tools.isValid(data.substring(0, MESSAGE_IDENTIFICATOR_LENGHT))) {
+		if (gribTools.isValid(data.substring(0, MESSAGE_IDENTIFICATOR_LENGHT))) {
 			if (data.length < 8) {
 				return 'Message is too short';
 			}
-			const messageSize = grib_tools._readMessageSizeFromFile(data);
-			if (grib_tools.isVersionValid(tools.ord(data.substring(4, 5)))) {
+			const messageSize = gribTools.readMessageSizeFromFile(data);
+			if (gribTools.isVersionValid(tools.ord(data.substring(4, 5)))) {
 				const dm = describeMessage(decode(data));
 				if (typeof dm === 'string') {
 					return dm;
@@ -67,14 +67,14 @@
 	}
 
 	function decode(data) {
-		var r = grib_tools._getRawSectionFromMessage(data, currentPosition, 8);
+		var r = gribTools.getRawSectionFromMessage(data, currentPosition, 8);
 		currentPosition += r.curPos;
-		const dis = grib_tools.decodeIndicatorSection(r.raw);
+		const dis = gribTools.decodeIndicatorSection(r.raw);
 		message.messageLength = dis.messageLength;
 		message.messageVersion = dis.messageVersion;
-		r = grib_tools._getRawSectionFromMessage(data, currentPosition, false);
+		r = gribTools.getRawSectionFromMessage(data, currentPosition, false);
 		currentPosition += r.curPos;
-		const dpds = grib_tools.decodeProductDefinitionSection(r.raw);
+		const dpds = gribTools.decodeProductDefinitionSection(r.raw);
 		message.parameterTableVersion = dpds.parameterTableVersion;
 		message.originCenterId = dpds.originCenterId;
 		message.originProcessId = dpds.originProcessId;
@@ -94,9 +94,9 @@
 		message.originSubcenterId = dpds.originSubcenterId;
 		message.decimalScaleFactor = dpds.decimalScaleFactor;
 		if (message.hasGDS) {
-			r = grib_tools._getRawSectionFromMessage(data, currentPosition, false);
+			r = gribTools.getRawSectionFromMessage(data, currentPosition, false);
 			currentPosition += r.curPos;
-			const dgds = grib_tools.decodeGridDescriptionSection(r.raw);
+			const dgds = gribTools.decodeGridDescriptionSection(r.raw);
 			if (typeof dgds === 'string') {
 				return dgds;
 			}
@@ -122,9 +122,9 @@
 		if (message.hasBMS) {
 			return 'BMS decoder not implemented!';
 		}
-		r = grib_tools._getRawSectionFromMessage(data, currentPosition, false);
+		r = gribTools.getRawSectionFromMessage(data, currentPosition, false);
 		currentPosition += r.curPos;
-		const dbds = grib_tools.decodeBinaryDataSection(r.raw);
+		const dbds = gribTools.decodeBinaryDataSection(r.raw);
 		message.dataIsInteger = dbds.dataIsInteger;
 		message.unusedBytes = dbds.unusedBytes;
 		message.binaryScaleFactor = dbds.binaryScaleFactor;
